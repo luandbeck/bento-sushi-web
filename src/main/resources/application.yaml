@@ -1,0 +1,10 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: bento-sushi-web
+  datasource:
+    driver-class: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/bento-sushi
+    username: user
+    password: password
