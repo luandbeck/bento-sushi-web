@@ -5,6 +5,6 @@ spring:
     name: bento-sushi-web
   datasource:
     driver-class: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/bento-sushi
-    username: user
-    password: password
+    url: ${DATABASE_URL}
+    username: ${DATABASE_USER}
+    password: ${DATABASE_PASSWORD}
